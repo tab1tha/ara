@@ -1,6 +1,5 @@
 from flask import Flask,request
 import requests
-import credentials
 from datetime import date
 import time
 import random
@@ -101,7 +100,7 @@ def webhook_hande():
     useful_info=None
     out=request.get_json()
     sender_id = out['entry'][0]['messaging'][0]['sender']['id']
-    if out['entry'][0]['messaging'][0]['message']
+    if out['entry'][0]['messaging'][0]['message'] :
         useful_info=out['entry'][0]['messaging'][0]['message']
     print(useful_info)
     if useful_info :
