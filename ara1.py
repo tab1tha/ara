@@ -8,7 +8,7 @@ import random
 verifytoken='1234'
 
 #token given by facebook to be added to our responseto be able to use the bkaaieuaireu 
-TOKEN='EAAiEn1AALuYBAF9r4ysLfTgrZA5hTpSTlUo7uDUbBV1iOiagLOmCCn9NAs9jQCxwbrI6zafrWge6isIiDcVwjW8ztH9fCmhZBzXxUQZBcThTxzceHZCefUQUZA5TnTL25vNJSrqSoAXYlmXCYnr10Bitkn5YBgGlb5YZCnhF1pGAV8X0iH8k0q'
+TOKEN='EAAiEn1AALuYBAF9r4ysLfTgrZA5hTpSTlUo//////////7uDUbBV1iOiagLOmCCn9NAs9jQCxwbrI6zafrWge6isIiDcVwjW8ztH9fCmhZBzXxUQZBc\\\\\\\\\ThTxzceHZCefUQUZA5TnTL25vNJSrqSoAXYlmXCYnr10Bitkn5YBgGlb5////\\\\\\YZCnhF1pGAV8X0iH8k0q'
 # create a list of entitites
 entity_list={'paul\'s birthday' : date(1996,11,8),
              'defense' : date(2020,9,1)}
